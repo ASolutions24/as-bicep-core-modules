@@ -1,0 +1,1 @@
+# as-bicep-core-modules
