@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>AS.Bicep-Core-Modules</PackageId>
+    <Authors>wrap</Authors>
+    <Company>CFS</Company>
+    <Product>AS.Bicep-Core-Modules</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="modules\**\*" CopyToPublishDirectory="Always" />
+    <Content Include="scripts\**\*" CopyToPublishDirectory="Always" />
+  </ItemGroup>
+</Project>
